@@ -1,4 +1,4 @@
-import { Avatar, Container, Grid, Typography } from '@material-ui/core';
+import { Avatar, Container, Grid, Hidden, Typography } from '@material-ui/core';
 import React from 'react';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
@@ -82,7 +82,7 @@ function CustomizedTables(props) {
               <StyledTableCell component='th' scope='row'>
                 {row.pos}
               </StyledTableCell>
-              <StyledTableCell>
+              <Hidden smDown><StyledTableCell>
                 {!row.pic ? (
                   ''
                 ) : (
@@ -94,6 +94,7 @@ function CustomizedTables(props) {
                   />
                 )}
               </StyledTableCell>
+              </Hidden>
             </StyledTableRow>
           ))}
         </TableBody>
@@ -381,7 +382,11 @@ function Committes() {
           </Grid>
         </Grid>
       </Container>
+      <Grid container>
+        <Grid item lg={12} md={12} sm={12}>
       <CopyRight />
+      </Grid>
+      </Grid>
     </div>
   );
 }
