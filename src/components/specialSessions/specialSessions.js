@@ -29,30 +29,24 @@ export default function SpecialSessions() {
     console.log(sessions);
   }, []);
   return (
-    <div>
-      <div>
-        <NavBar className='bar' title='Special Sessions' />
-      </div>
-      <div>
-        <div
-          style={{
-            'padding-top': '200px',
-            'padding-left': '650px',
-            display: 'flex',
-            alignItems: 'center',
-            'flex-wrap': 'wrap',
-          }}
-        >
-          <Announcement />
-          <Typography
-            variant='h5'
-            style={{
-              'padding-left': '20px',
-            }}
-          >
-            To Be Updated Soon !!
-          </Typography>
+    
+        <div>
+        
+        <div>
+          <NavBar className='bar' title='Special Sessions'/>
         </div>
+
+        <div className="subDiv">
+        <Card style={{background:"linear-gradient(rgba(40,9,150,0.5),transparent)",textAlign:"center"}}>
+        <Announcement style={{height:"30px",width:"30px"}}/>
+        <p style={{display:"inline",fontSize:"30px",marginLeft:"10px"}}>To be Updated soon !!!</p>
+        </Card>
+        </div>
+        
+        <div className="bottomDiv">
+        <CopyRight />
+        </div>
+        
         {/* <Grid container spacing={2} className='session'>
           {sessions.map(({ id, product }) => (
             <Grid key={id} item xs={6} sm={2}>
@@ -75,23 +69,7 @@ export default function SpecialSessions() {
             </Grid>
           ))}
         </Grid> */}
-      </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <CopyRight />
-    </div>
+
+     </div>
   );
 }

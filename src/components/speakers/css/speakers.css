@@ -6,3 +6,19 @@
     font-size: 18px;
     font-weight: normal;
 }
+.bottomDiv{
+    position: absolute;
+    bottom: 0.5px;
+    width: 100%;
+}
+.subDiv{
+    
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    
+}

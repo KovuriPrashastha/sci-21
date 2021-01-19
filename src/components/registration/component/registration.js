@@ -43,7 +43,7 @@ class Registration extends Component {
       'Account Number: 104805001533',
       'IFSC Code: ICIC0001048',
       'SWIFT Code: ICICINBBCTS',
-      'UPI ID: innovativeresearchconsultancy @icici',
+      'UPI ID: innovativeresearchconsultancy@icici',
     ];
     const icons = [
       <AccountBox />,
@@ -134,13 +134,13 @@ class Registration extends Component {
             {/*
             Below is the for the accordion which has account details for which the user needs to pay;
         */}
-            <Accordion style={{ marginRight: '0px', marginTop: '10px' }}>
+            <Accordion style={{ marginRight: '0px', marginTop: '10px',backgroundColor:"#007984" }}>
               <AccordionSummary
                 expandIcon={<ExpandMore />}
                 aria-controls='panel1a-content'
                 id='panel1a-header'
               >
-                <Typography className='accountDetailsHeading'>
+                <Typography className='accountDetailsHeading' >
                   AccountDetails
                 </Typography>
               </AccordionSummary>
@@ -150,10 +150,10 @@ class Registration extends Component {
                     <Grid container spacing={3}>
                       <ListItem key={accountsDetails[index]}>
                         <Grid item sm={0}>
-                          <ListItemIcon>{icons[index]}</ListItemIcon>
+                          <ListItemIcon style={{color:"white"}}>{icons[index]}</ListItemIcon>
                         </Grid>
                         <Grid item sm={10} xs={8}>
-                          <ListItemText primary={accountsDetails[index]} />
+                          <ListItemText primary={accountsDetails[index]}  style={{color:"white"}}/>
                         </Grid>
                       </ListItem>
                     </Grid>
@@ -190,49 +190,49 @@ class Registration extends Component {
               </Table>
             </TableContainer>
 
-            <Card className='instructionsCard' style={{ marginBottom: '20px' }}>
-              <h3 style={{ textAlign: 'start', marginLeft: '14px' }}>Note</h3>
+            <Card className='instructionsCard' style={{ marginBottom: '20px',backgroundColor:"#007984" }}>
+              <h3 style={{ textAlign: 'start', marginLeft: '14px',color:"white" }}>Note</h3>
 
               <ol>
-                <li className='instructionsList'>
-                  <p style={{ color: 'red', display: 'inline' }}>
+                <li className='instructionsList2'>
+                  <p style={{ color: 'white', display: 'inline' }}>
                     "Academicians, Faculty Members, Students and Research
                     Scholars"
                   </p>{' '}
                   means any PhD Scholar or Researcher or U.G./P.G. Student or
                   Academician working in an educational institute.
                 </li>
-                <li className='instructionsList'>
-                  <p style={{ color: 'red', display: 'inline' }}>
+                <li className='instructionsList2'>
+                  <p style={{ color: 'white', display: 'inline' }}>
                     "Industry Participants"
                   </p>
                   means any Indian citizen working in industrial or commercial
                   sector.
                 </li>
-                <li className='instructionsList'>
-                  <p style={{ color: 'red', display: 'inline' }}>
+                <li className='instructionsList2'>
+                  <p style={{ color: 'white', display: 'inline' }}>
                     "Listener / Participant Only"
                   </p>
                   means any student or academician or industry author who would
                   like to attend conference programme. (Not registered author)
                 </li>
-                <li className='instructionsList'>
-                  <p style={{ color: 'red', display: 'inline' }}>
+                <li className='instructionsList2'>
+                  <p style={{ color: 'white', display: 'inline' }}>
                     "Co-Author Registration"
                   </p>
                   means a Co-author who would like to attend conference
                   programme and present the paper along with main registered
                   author.
                 </li>
-                <li className='instructionsList'>
-                  <p style={{ color: 'red', display: 'inline' }}>
+                <li className='instructionsList2'>
+                  <p style={{ color: 'white', display: 'inline' }}>
                     "Additional Paper Registration"
                   </p>
                   means the same authors who wish to apply their second paper.
                   (For one additional paper only)
                 </li>
-                <li className='instructionsList'>
-                  <p style={{ color: 'red', display: 'inline' }}>
+                <li className='instructionsList2'>
+                  <p style={{ color: 'white', display: 'inline' }}>
                     "The above registration fee"
                   </p>
                   is inclusive of GST

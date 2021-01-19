@@ -129,7 +129,6 @@ export default function ContactUs() {
               {contact.timings}
             </Typography>
           </Grid>
-
           <Grid item lg={6}>
             <Email color='primary' style={{ fontSize: '50' }} />
             <Typography gutterBottom variant='h6' component='h2'>
@@ -141,7 +140,81 @@ export default function ContactUs() {
           <Map />
         </Grid>
       </Container>
-      <CopyRight />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div className="bottomDiv">
+        <CopyRight />
+        </div>
     </div>
   );
 }

@@ -4,8 +4,15 @@
 .instructionsList{
     text-align: left;
     margin: 8px 4px 4px 4px;
+
+}
+.instructionsList2{
+    text-align: left;
+    margin: 8px 4px 4px 4px;
+    color: lightblue;
 }
 .accountDetailsHeading{
     size: 20px;
     font-weight: bold;
+    color: white;
 }
