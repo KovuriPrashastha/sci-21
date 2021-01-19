@@ -1,0 +1,9 @@
+.session {
+  padding-top: 70px;
+  display: flex;
+  padding: 10px;
+}
+.item {
+  padding-top: 70px;
+  padding: 10px;
+}

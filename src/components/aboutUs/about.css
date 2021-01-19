@@ -1,0 +1,8 @@
+.aboutUsHeading{
+    font-size: 30px;
+}
+@media(max-width:800px){
+    .aboutUsHeading{
+        font-size: 20px;
+    }
+}

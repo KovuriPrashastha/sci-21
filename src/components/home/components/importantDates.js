@@ -1,0 +1,71 @@
+import React, { Component } from 'react';
+import { Table,
+    TableBody,
+    TableCell,
+    Paper,
+    TableRow,
+    TableContainer, } from "@material-ui/core";
+import { withStyles} from '@material-ui/core/styles';
+
+class ImportantDates extends Component {
+    render() {
+        const tableContents=[
+            {
+                content: "Paper submission Last Date",
+                date:"13th September, 2020"
+            },
+            {
+                content: "Notification of Acceptance",
+                date:"19th September, 2020"
+            },
+            {
+                content: "Registration Fee Payment",
+                date: "26th September, 2020"
+            },
+            {
+                content: "Final Submission (CRC & Springer Publishing Agreement Form)",
+                date: "Guidelines and Dates of Submission will be declared after the conference."
+            }
+        ];
+        const StyledTableCell = withStyles((theme) => ({
+            head: {
+              backgroundColor: theme.palette.common.black,
+              color: theme.palette.common.white,
+            },
+            body: {
+              fontSize: 14,
+            },
+          }))(TableCell);
+          
+          const StyledTableRow = withStyles((theme) => ({
+            root: {
+              '&:nth-of-type(odd)': {
+                backgroundColor: theme.palette.action.hover,
+              },
+            },
+          }))(TableRow);
+
+        return (
+            <div>
+                <h1>Important Dates</h1>
+                <div className="importantTable">
+                    <TableContainer component={Paper} style={{marginBottom:"20px"}}>
+                        <Table className="table" aria-label="simple table">
+                        <TableBody>
+                            {tableContents.map((row) => (
+                            <StyledTableRow key={row.content}>
+                                <StyledTableCell align="left">{row.content}</StyledTableCell>
+                                <StyledTableCell align="left">{row.date}</StyledTableCell>
+                            </StyledTableRow>
+                            ))}
+                        </TableBody>
+                        </Table>
+                    </TableContainer>
+                </div>
+                <h2>Venue: QEEE HALL , Vasavi College of Engineering(Autonomous), Hyderabad, Telangana, India</h2>
+            </div>
+        );
+    }
+}
+
+export default ImportantDates;

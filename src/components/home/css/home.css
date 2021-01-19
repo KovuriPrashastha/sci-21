@@ -1,0 +1,70 @@
+.homeAbout {
+  text-align: center;
+  margin-top: 30px;
+}
+.homeAboutImage {
+  height: 360px;
+  width: auto;
+}
+/* .homeAboutImageBox {
+  padding-left: 5%;
+} */
+.homeAboutText {
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  /* padding-left: 450px; */
+}
+.importantTable {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.sponsor {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.sponsorImage {
+  text-align: center;
+  height: 130px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 0px;
+}
+.csiImage {
+  height: '100px';
+  width: '100px';
+}
+.springImage {
+  height: '100px';
+  width: '300px';
+}
+.copyRight {
+  background-color: #04091e;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.copyRightText {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 800px) {
+  .homeAboutImage {
+    height: 300px;
+    width: 80%;
+  }
+  .csiImage {
+    height: '30px';
+    width: '30px';
+  }
+  .springImage {
+    height: '30px';
+    width: '50px';
+  }
+  .homeAboutImageBox {
+    padding-left: 0%;
+  }
+}

@@ -1,0 +1,171 @@
+@charset "UTF-8";
+.body {
+  padding: 40px 25px 50px 25px;
+}
+
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#app {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 992px) {
+  #app {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1074px) {
+  #app {
+    width: 80%;
+  }
+}
+
+header {
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: bold;
+  color: #5E5A80;
+}
+
+.title {
+  margin: 0 auto 15px auto;
+}
+
+.table {
+  background-color: #ffffff;
+}
+
+.table-striped {
+  background-color: #ececec;
+}
+
+.table > thead > tr > th {
+  text-align: center;
+  font-size: 1.1em;
+  background-color: #798c9f;
+  color: #ffffff;
+  padding: 0;
+  border: 1px solid #ffffff;
+  height: 50px;
+  max-height: 70px;
+}
+@media screen and (min-width: 600px) {
+  .table > thead > tr > th {
+    height: 70px;
+  }
+}
+@media screen and (min-width: 860px) {
+  .table > thead > tr > th {
+    font-size: 1.3em;
+  }
+}
+
+.table > thead > tr > th:first-child {
+  min-width: 60px;
+}
+
+.th-no-btn {
+  line-height: 60px !important;
+}
+@media screen and (min-width: 600px) {
+  .th-no-btn {
+    line-height: 70px !important;
+  }
+}
+
+.button-pts {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #737CA1;
+}
+@media screen and (max-width: 504px) {
+  .button-pts {
+    font-size: 0.9em;
+  }
+}
+
+.button-pts-selected {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #545c7d;
+}
+.button-pts-selected::after {
+  content: " ⇓";
+  color: #99ffff;
+}
+
+.table > tbody > tr td {
+  font-size: 1.3em;
+  line-height: 2.2;
+  text-align: center;
+  padding-top: 35px;
+}
+@media screen and (min-width: 600px) {
+  .table > tbody > tr td {
+    padding-top: 12px;
+    line-height: 3.2;
+  }
+}
+
+.table > tbody > tr td.user-id {
+  padding-top: 25px;
+  padding-left: 50px;
+  font-size: 1.2em;
+}
+@media screen and (min-width: 600px) {
+  .table > tbody > tr td.user-id {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .table > tbody > tr td.user-id {
+    font-size: 1.3em;
+  }
+}
+
+.img-user {
+  width: 40px;
+  max-height: 40px;
+  margin: 0 10px 0 0;
+  float: left;
+}
+@media screen and (min-width: 600px) {
+  .img-user {
+    float: none;
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .img-user {
+    margin-left: 40px;
+  }
+}
+
+.username-link {
+  float: left;
+  clear: both;
+}
+@media screen and (min-width: 600px) {
+  .username-link {
+    float: none;
+  }
+}
