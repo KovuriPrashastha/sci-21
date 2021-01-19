@@ -82,7 +82,7 @@ function CustomizedTables(props) {
               <StyledTableCell component='th' scope='row'>
                 {row.pos}
               </StyledTableCell>
-              <Hidden smDown><StyledTableCell>
+              <StyledTableCell>
                 {!row.pic ? (
                   ''
                 ) : (
@@ -94,7 +94,6 @@ function CustomizedTables(props) {
                   />
                 )}
               </StyledTableCell>
-              </Hidden>
             </StyledTableRow>
           ))}
         </TableBody>
@@ -384,8 +383,8 @@ function Committes() {
       </Container>
       <Grid container>
         <Grid item lg={12} md={12} sm={12}>
-      <CopyRight />
-      </Grid>
+          <CopyRight />
+        </Grid>
       </Grid>
     </div>
   );
