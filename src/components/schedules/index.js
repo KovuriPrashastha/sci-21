@@ -10,7 +10,9 @@ class Schedules extends Component {
       <div>
         <div>
           <NavBar title='Schedules' />
+        
         </div>
+        
         {/* <div style={{ paddingTop: '15%', backgroundColor: '#f5f5f5' }}> */}
         <Container maxWidth='xs'>
           <Card
@@ -25,7 +27,8 @@ class Schedules extends Component {
               position: 'absolute',
             }}
           >
-<<<<<<< HEAD
+          
+          <Button>
             PROG SCHEDULE
           </Button>
           <Button
@@ -35,6 +38,8 @@ class Schedules extends Component {
           >
             TRACK SCHEDULE
           </Button>
+          </Card>
+          </Container>
           <div style={{ paddingTop: '10%' }}>
             <Sponsors />
             <div className="bottomDiv">
@@ -42,68 +47,7 @@ class Schedules extends Component {
             </div>
           </div>
         </div>
-=======
-            <Typography variant='p' gutterBottom align='left'>
-              Click here to view Program Schedule
-            </Typography>
-            <br />
-            <div className='schedule'>
-              <Button
-                target='_blank'
-                variant='outlined'
-                href='https://vce.ac.in/icsci/docs/schedule.pdf'
-                style={{ marginRight: '10%' }}
-              >
-                PROG SCHEDULE
-              </Button>
-            </div>
-            <br />
-            <br />
-            <Typography variant='p' gutterBottom align='left'>
-              Click here to view Track Schedule
-            </Typography>
-            <br />
-            <div className='schedule'>
-              <Button
-                target='_blank'
-                variant='outlined'
-                href='https://vce.ac.in/icsci/docs/tracks.pdf'
-                color='primary'
-              >
-                TRACK SCHEDULE
-              </Button>
-            </div>
-          </Card>
-
-          <br />
-          <br />
-          <br />
-          <br />
-
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-
-          <div style={{ paddingTop: '10%' }}></div>
-        </Container>
-        <Sponsors />
-        <CopyRight />
->>>>>>> 272a32317bab26cb7b904675fbfa1311f1de3130
-      </div>
+          
     );
   }
 }
