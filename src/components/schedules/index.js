@@ -27,7 +27,9 @@ class Schedules extends Component {
           </Button>
           <div style={{ paddingTop: '10%' }}>
             <Sponsors />
+            <div className="bottomDiv">
             <CopyRight />
+            </div>
           </div>
         </div>
       </div>

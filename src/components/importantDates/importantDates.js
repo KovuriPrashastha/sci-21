@@ -72,24 +72,9 @@ export default function ImportantDates() {
           </Grid>
         </Grid>
       </Container>
-      <div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+      <div className="bottomDiv">
         <CopyRight />
-      </div>
+        </div>
     </div>
   );
 }
