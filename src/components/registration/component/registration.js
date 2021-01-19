@@ -43,7 +43,7 @@ class Registration extends Component {
       'Account Number: 104805001533',
       'IFSC Code: ICIC0001048',
       'SWIFT Code: ICICINBBCTS',
-      'UPI ID: innovativeresearchconsultancy @icici',
+      'UPI ID: innovativeresearchconsultancy@icici',
     ];
     const icons = [
       <AccountBox />,
