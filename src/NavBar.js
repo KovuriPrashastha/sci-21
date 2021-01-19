@@ -13,6 +13,7 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
+  Grid,
 } from '@material-ui/core';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import {
@@ -34,7 +35,6 @@ import {
   BusinessSharp,
 } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
-import './NavBar.css';
 
 const names = [
   'HOME',
@@ -178,6 +178,9 @@ export default function NavBar(props) {
           })}
         >
           <Toolbar>
+            <Grid container>
+              <Grid container sm={1}>
+              <Grid item>
             <IconButton
               color='inherit'
               aria-label='open drawer'
@@ -187,12 +190,23 @@ export default function NavBar(props) {
             >
               <Menu />
             </IconButton>
+            </Grid>
+            </Grid>
+            <Grid container alignItems="center" justify="center" sm={1}>
+            <Grid item >
             <Typography variant='h6' noWrap>
               SCI 2021
             </Typography>
-            <Typography variant='h6' noWrap className={classes.title}>
+            </Grid>
+            </Grid>
+            <Grid container alignItems="center" justify="center" sm={7}>
+            <Grid item style={{ textAlign: "center"}} >
+            <Typography variant='h6' noWrap>
               {props.title}
             </Typography>
+            </Grid>
+            </Grid>
+            </Grid>
           </Toolbar>
         </AppBar>
         <Drawer
