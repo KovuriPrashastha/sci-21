@@ -41,7 +41,7 @@ class Schedules extends Component {
           </Card>
           </Container>
           <div style={{ paddingTop: '10%' }}>
-            <Sponsors />
+            {/* <Sponsors /> */}
             <div className="bottomDiv">
             <CopyRight />
             </div>
