@@ -27,7 +27,7 @@ class About extends Component {
             />
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12} className='homeAboutText'>
-            <h1>ABOUT SCI-2020</h1>
+            <h1 className="aboutUsHeading">ABOUT SCI-2020</h1>
             <p>
               The aim of the 4th International Conference on Smart Computing and
               Informatics (SCI-2020) is to present a unified platform for

@@ -1,40 +1,44 @@
 import React, { Component } from 'react';
 // import {Grid} from '@material-ui/core';
-// import csi from '../../../assests/images/banner/csi.png';
-// import springer from '../../../assests/images/banner/springer.png';
+import csi from '../../../assests/images/banner/csi.png';
+import logo from '../../../assests/images/banner/logo.png';
+import springer from '../../../assests/images/banner/springer.png';
 import '../css/home.css';
 
 class Primary extends Component {
   render() {
     return (
-      <div
-        style={{
-          backgroundColor: '#f5f5f5',
-          marginTop: '0px',
-          paddingTop: '20px',
-          paddingBottom: '10px',
-        }}
-      >
-        <div
+      
+        <div className="firstComponent"
           style={{
             textAlign: 'center',
-            marginBottom: '5%',
-            marginLeft: '5%',
-            marginRight: '5%',
+            padding: '5%',
+            backgroundColor:"#007984",
+            color:"#fff"
           }}
         >
           <h1 className="aboutUsHeading">
             5th INTERNATIONAL CONFERENCE ON SMART COMPUTING AND INFORMATICS
             (SCI-2021)
           </h1>
-          <h1 className="aboutUsHeading">17-18 September</h1>
+          <img src={csi} alt="previous" width="100px" height="100px"/>
+          <img src={springer} alt="previous" width="170px" height="100px" style={{marginLeft:"15%"}}/>
+          <h1 className="aboutUsHeading" style={{color:"black"}}>17-18 September</h1>
           <h3> Organized by</h3>
-          <h1 className="aboutUsHeading">
+          <table style={{border:"none"}}>
+            <tbody style={{border:"none"}}>
+              <td style={{border:"none"}}>
+          <img src={logo} alt="previous" width="100px" height="100px" style={{display:"inline"}}/>
+          </td>
+          <td style={{border:"none",textAlign:"center"}}>
+          <h1 className="aboutUsHeading" style={{display:"inline"}}>
             Department of Computer Science and Engineering Vasavi College of
             Engineering (Autonomous) Hyderabad, Telangana, India
           </h1>
+          </td>
+          </tbody>
+          </table>
         </div>
-      </div>
     );
   }
 }

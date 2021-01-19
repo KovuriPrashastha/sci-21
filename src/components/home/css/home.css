@@ -6,6 +6,12 @@
   height: 360px;
   width: auto;
 }
+.firstComponent{
+  margin-top: -5%;
+}
+.homeImportantDates{
+  margin-bottom: "-25%";
+}
 /* .homeAboutImageBox {
   padding-left: 5%;
 } */
@@ -51,6 +57,10 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.footerDiv{
+  width: 100%;
+  position: absolute;
+}
 @media (max-width: 800px) {
   .homeAboutImage {
     height: 300px;
@@ -66,5 +76,13 @@
   }
   .homeAboutImageBox {
     padding-left: 0%;
+  }
+  .firstComponent{
+    margin-top: -10%;
+  }
+}
+@media (max-width: 700px) {
+  .firstComponent{
+    margin-top: -15%;
   }
 }
