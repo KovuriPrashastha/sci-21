@@ -28,21 +28,42 @@ class Schedules extends Component {
             }}
           >
           
-          <Button>
-            PROG SCHEDULE
-          </Button>
-          <Button
-            variant='outlined'
-            href='https://vce.ac.in/icsci/docs/tracks.pdf'
-            color='primary'
-          >
-            TRACK SCHEDULE
-          </Button>
+          <Typography variant='p' gutterBottom align='left'>
+              Click here to view Program Schedule
+            </Typography>
+            <br />
+            <div className='schedule'>
+              <Button
+                target='_blank'
+                variant='outlined'
+                href='https://vce.ac.in/icsci/docs/schedule.pdf'
+                style={{ marginRight: '10%' }}
+              >
+                PROG SCHEDULE
+              </Button>
+            </div>
+            <br />
+            <br />
+            <Typography variant='p' gutterBottom align='left'>
+              Click here to view Track Schedule
+            </Typography>
+            <br />
+            <div className='schedule'>
+              <Button
+                target='_blank'
+                variant='outlined'
+                href='https://vce.ac.in/icsci/docs/tracks.pdf'
+                color='primary'
+              >
+                TRACK SCHEDULE
+              </Button>
+              </div>
           </Card>
           </Container>
           <div style={{ paddingTop: '10%' }}>
-            <Sponsors />
+            
             <div className="bottomDiv">
+            <Sponsors/>
             <CopyRight />
             </div>
           </div>
