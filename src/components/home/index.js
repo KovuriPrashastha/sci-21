@@ -26,7 +26,7 @@ class Home extends Component {
           <Past />
           <About />
           <ImportantDates />
-          <Sponsors />
+          <Sponsors/>
           <CopyRight />
         </div>
       </div>

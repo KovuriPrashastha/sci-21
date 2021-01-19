@@ -46,8 +46,9 @@ class ImportantDates extends Component {
           }))(TableRow);
 
         return (
-            <div>
-                <h1>Important Dates</h1>
+            <div className="homeImportantDates" style={{backgroundColor:"#007984",paddingTop:"2%",paddingBottom:"2%",marginBottom:"0px",
+            color:"#fff"}}>
+                <h1 className="aboutUsHeading">Important Dates</h1>
                 <div className="importantTable">
                     <TableContainer component={Paper} style={{marginBottom:"20px"}}>
                         <Table className="table" aria-label="simple table">
