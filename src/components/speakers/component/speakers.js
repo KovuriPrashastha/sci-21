@@ -5,6 +5,7 @@ import {
   Card,
   Grid,
   Divider,
+  FormRow,
   Typography,
 } from '@material-ui/core';
 // import profImage1 from '../../../assets/images/prof1.png';
@@ -24,41 +25,17 @@ class Speakers extends Component {
         <div>
           <NavBar className='bar' title='Speakers' />
         </div>
-        <div
-          style={{
-            'padding-top': '200px',
-            'padding-left': '650px',
-            display: 'flex',
-            alignItems: 'center',
-            'flex-wrap': 'wrap',
-          }}
-        >
-          <Announcement />
-          <Typography
-            variant='h5'
-            style={{
-              'padding-left': '20px',
-            }}
-          >
-            To Be Updated Soon !!
-          </Typography>
+        
+        <div className="subDiv">
+        <Card style={{background:"linear-gradient(rgba(40,9,150,0.5),transparent)",textAlign:"center"}}>
+        <Announcement style={{height:"30px",width:"30px"}}/>
+        <p style={{display:"inline",fontSize:"30px",marginLeft:"10px"}}>To be Updated soon !!!</p>
+        </Card>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <div className="bottomDiv">
         <CopyRight />
+        </div>
+        
         {/*}
         <CssBaseline />
         <Container>

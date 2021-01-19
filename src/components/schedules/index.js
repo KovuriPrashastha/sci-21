@@ -25,6 +25,24 @@ class Schedules extends Component {
               position: 'absolute',
             }}
           >
+<<<<<<< HEAD
+            PROG SCHEDULE
+          </Button>
+          <Button
+            variant='outlined'
+            href='https://vce.ac.in/icsci/docs/tracks.pdf'
+            color='primary'
+          >
+            TRACK SCHEDULE
+          </Button>
+          <div style={{ paddingTop: '10%' }}>
+            <Sponsors />
+            <div className="bottomDiv">
+            <CopyRight />
+            </div>
+          </div>
+        </div>
+=======
             <Typography variant='p' gutterBottom align='left'>
               Click here to view Program Schedule
             </Typography>
@@ -84,6 +102,7 @@ class Schedules extends Component {
         </Container>
         <Sponsors />
         <CopyRight />
+>>>>>>> 272a32317bab26cb7b904675fbfa1311f1de3130
       </div>
     );
   }

@@ -46,19 +46,10 @@ class Download extends Component {
         </Container>
         <Sponsors />
 
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <CopyRight styles={{ bottom: '10px' }} />
+       
+        <div className="bottomDiv">
+        <CopyRight />
+        </div>
       </div>
     );
   }
