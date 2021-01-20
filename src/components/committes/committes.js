@@ -267,7 +267,7 @@ function Committes() {
   return (
     <div>
       <div>
-        <NavBar title='Committes' />
+        <NavBar title='Committees' />
       </div>
       <Container maxWidth='md'>
         <Grid container>

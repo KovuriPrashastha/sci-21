@@ -34,12 +34,8 @@ export default function ImportantDates() {
           <Grid item className='dates' lg={6} md={8} sm={12}>
             <table align='left'>
               <tr>
-                <th></th>
-                <th>Last Date</th>
-              </tr>
-              <tr>
                 <td>Paper submission Last Date</td>
-                <td>13th June, 2021</td>
+                <td>12th June, 2021</td>
               </tr>
               <tr>
                 <td>Notification of Acceptance</td>
@@ -49,7 +45,7 @@ export default function ImportantDates() {
                 <td>Registration Fee Payment</td>
                 <td>26th June, 2021</td>
               </tr>
-              <tr>
+              {/* <tr>
                 <td>
                   Final Submission (CRC & Springer Publishing Agreement Form)
                 </td>
@@ -57,7 +53,7 @@ export default function ImportantDates() {
                   Guidelines and Dates of Submission will be declared after the
                   conference.
                 </td>
-              </tr>
+              </tr> */}
             </table>
             <br />
             <br />
@@ -72,9 +68,9 @@ export default function ImportantDates() {
           </Grid>
         </Grid>
       </Container>
-      <div className="bottomDiv">
+      <div className='bottomDiv'>
         <CopyRight />
-        </div>
+      </div>
     </div>
   );
 }

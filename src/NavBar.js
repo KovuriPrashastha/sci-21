@@ -45,8 +45,8 @@ const names = [
   'REGISTRATION',
   'DOWNLOAD',
   'SPECIAL SESSIONS',
-  'IMPORTANT DATE',
-  'COMMITTES',
+  'IMPORTANT DATES',
+  'COMMITTEES',
   'CONTACT US',
   'HOTELS',
   'TRAVEL',
@@ -71,7 +71,7 @@ const links = [
   '/download',
   '/specialsessions',
   '/importantdates',
-  '/committes',
+  '/committees',
   '/contactus',
   '/hotels',
   '/travel',
@@ -180,32 +180,32 @@ export default function NavBar(props) {
           <Toolbar>
             <Grid container>
               <Grid container sm={1}>
-              <Grid item>
-            <IconButton
-              color='inherit'
-              aria-label='open drawer'
-              onClick={handleDrawerOpen}
-              edge='start'
-              className={clsx(classes.menuButton, open && classes.hide)}
-            >
-              <Menu />
-            </IconButton>
-            </Grid>
-            </Grid>
-            <Grid container alignItems="center" justify="center" sm={1}>
-            <Grid item >
-            <Typography variant='h6' noWrap>
-              SCI 2021
-            </Typography>
-            </Grid>
-            </Grid>
-            <Grid container alignItems="center" justify="center" sm={7}>
-            <Grid item style={{ textAlign: "center"}} >
-            <Typography variant='h6' noWrap>
-              {props.title}
-            </Typography>
-            </Grid>
-            </Grid>
+                <Grid item>
+                  <IconButton
+                    color='inherit'
+                    aria-label='open drawer'
+                    onClick={handleDrawerOpen}
+                    edge='start'
+                    className={clsx(classes.menuButton, open && classes.hide)}
+                  >
+                    <Menu />
+                  </IconButton>
+                </Grid>
+              </Grid>
+              <Grid container alignItems='center' justify='center' sm={1}>
+                <Grid item>
+                  <Typography variant='h6' noWrap>
+                    SCI 2021
+                  </Typography>
+                </Grid>
+              </Grid>
+              <Grid container alignItems='center' justify='center' sm={7}>
+                <Grid item style={{ textAlign: 'center' }}>
+                  <Typography variant='h6' noWrap>
+                    {props.title}
+                  </Typography>
+                </Grid>
+              </Grid>
             </Grid>
           </Toolbar>
         </AppBar>

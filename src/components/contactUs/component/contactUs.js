@@ -15,13 +15,18 @@ import history from './../../../history/history';
 import CopyRight from './../../home/components/copyRight';
 function Map() {
   return (
-    <iframe
-      id='mapIframe'
-      src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15230.603210403495!2d78.3826143!3d17.3805282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c30ca8d2ffb8734!2sVasavi%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1574527933482!5m2!1sen!2sin'
-      allowfullscreen='true'
-      aria-setsize='40'
-      style={{ border: 0, width: '100%', height: '100%' }}
-    ></iframe>
+    <div>
+      <iframe
+        id='mapIframe'
+        src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15230.603210403495!2d78.3826143!3d17.3805282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c30ca8d2ffb8734!2sVasavi%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1574527933482!5m2!1sen!2sin'
+        allowfullscreen='true'
+        aria-setsize='40'
+        style={{ border: 0, width: '100%', height: '100%' }}
+      ></iframe>
+      <br />
+      <br />
+      <br />
+    </div>
   );
 }
 
@@ -140,81 +145,13 @@ export default function ContactUs() {
           <Map />
         </Grid>
       </Container>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <div className="bottomDiv">
-        <CopyRight />
+      <Container>
+        <div className='bottomDiv'>
+          <br />
+          <br />
+          <CopyRight />
         </div>
+      </Container>
     </div>
   );
 }

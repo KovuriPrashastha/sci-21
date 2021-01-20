@@ -33,7 +33,7 @@ class Routes extends Component {
             <Route path='/specialsessions' component={SpecialSessions} />
             <Route path='/importantdates' component={ImportantDates} />
             <Route path='/contactus' component={ContactUs} />
-            <Route path='/committes' component={Committes} />
+            <Route path='/committees' component={Committes} />
             <Route path='/travel' component={Travel} />
             <Route path='/hotels' component={NearBy} />
             <Route path='/callforpapers' component={CallForPaper} />
