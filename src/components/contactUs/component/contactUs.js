@@ -124,7 +124,7 @@ export default function ContactUs() {
         </Grid>
         <br />
         <Grid container>
-          <Grid item lg={4}>
+          <Grid item lg={6}>
             <Call color='primary' style={{ fontSize: '50' }} />
             <Typography gutterBottom variant='h6' component='h2'>
               {contact.phone}
@@ -141,17 +141,16 @@ export default function ContactUs() {
             </Typography>
           </Grid>
         </Grid>
+        <br/>
         <Grid item>
           <Map />
         </Grid>
       </Container>
       <Container>
-        <div className='bottomDiv'>
-          <br />
-          <br />
+      </Container>
+      <div>
           <CopyRight />
         </div>
-      </Container>
     </div>
   );
 }

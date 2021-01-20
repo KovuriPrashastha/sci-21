@@ -42,7 +42,6 @@ function createData(id, name, pos, pic) {
 
 const useStyles = makeStyles((theme) => ({
   table: {
-    minWidth: 700,
   },
   root: {
     display: 'flex',
@@ -72,7 +71,7 @@ function CustomizedTables(props) {
       <Table className={classes.table} aria-label='customized table'>
         <TableBody>
           {props.rows.map((row) => (
-            <StyledTableRow style={{ height: hh }} key={row.name}>
+            <StyledTableRow style={{ height: hh }}  key={row.name}>
               <StyledTableCell component='th' scope='row'>
                 {row.id || 1}
               </StyledTableCell>
