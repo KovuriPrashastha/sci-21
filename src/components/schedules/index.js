@@ -10,9 +10,8 @@ class Schedules extends Component {
       <div>
         <div>
           <NavBar title='Schedules' />
-        
         </div>
-        
+
         {/* <div style={{ paddingTop: '15%', backgroundColor: '#f5f5f5' }}> */}
         <Container maxWidth='xs'>
           <Card
@@ -27,8 +26,7 @@ class Schedules extends Component {
               position: 'absolute',
             }}
           >
-          
-          <Typography variant='p' gutterBottom align='left'>
+            <Typography variant='p' gutterBottom align='left'>
               Click here to view Program Schedule
             </Typography>
             <br />
@@ -57,18 +55,25 @@ class Schedules extends Component {
               >
                 TRACK SCHEDULE
               </Button>
-              </div>
+            </div>
           </Card>
+<<<<<<< HEAD
           </Container>
           <div style={{ paddingTop: '10%' }}>
             {/* <Sponsors /> */}
             <div className="bottomDiv">
             <Sponsors/>
+=======
+        </Container>
+        <div style={{ paddingTop: '10%' }}>
+          {/* <Sponsors /> */}
+          <div className='bottomDiv'>
+            <Sponsors />
+>>>>>>> 10ccdd4ae353c5e3c184e2ce7399ce82ab855d96
             <CopyRight />
-            </div>
           </div>
         </div>
-          
+      </div>
     );
   }
 }

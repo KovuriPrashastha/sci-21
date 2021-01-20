@@ -8,14 +8,7 @@ class About extends Component {
     return (
       <div>
         <Grid class='homeAbout' container spacing={3}>
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            md={12}
-            lg={12}
-            style={{ margin: '0px' }}
-          >
+          <Grid item xs={12} sm={12} md={12} lg={12} style={{ margin: '0px' }}>
             <img
               className='homeAboutImage'
               src={welcomeBanner}
@@ -27,10 +20,10 @@ class About extends Component {
             />
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12} className='homeAboutText'>
-            <h1 className="aboutUsHeading">ABOUT SCI-2020</h1>
+            <h1 className='aboutUsHeading'>ABOUT SCI-2021</h1>
             <p>
-              The aim of the 4th International Conference on Smart Computing and
-              Informatics (SCI-2020) is to present a unified platform for
+              The aim of the 5th International Conference on Smart Computing and
+              Informatics (SCI-2021) is to present a unified platform for
               advanced and multi-disciplinary research towards the design of
               smart computing and informatics. The theme is on a broader front
               focuses on various innovation paradigms in system knowledge,
