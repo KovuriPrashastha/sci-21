@@ -178,9 +178,9 @@ function getWindowDimensions() {
 export default function NavBar(props) {
   const classes = useStyles();
   const theme = useTheme();
-  const { height, width } = useWindowDimensions();
-  const [open, setOpen] = React.useState(width>=992?true:false);
-
+  //const { height, width } = useWindowDimensions();
+  //const [open, setOpen] = React.useState(width>=992?true:false);
+  const [open, setOpen] = React.useState(false);
   const handleDrawerOpen = () => {
     setOpen(true);
   };
