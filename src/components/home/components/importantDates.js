@@ -12,19 +12,15 @@ class ImportantDates extends Component {
         const tableContents=[
             {
                 content: "Paper submission Last Date",
-                date:"13th September, 2020"
+                date:"12th June, 2021"
             },
             {
                 content: "Notification of Acceptance",
-                date:"19th September, 2020"
+                date:"19th June, 2021"
             },
             {
                 content: "Registration Fee Payment",
-                date: "26th September, 2020"
-            },
-            {
-                content: "Final Submission (CRC & Springer Publishing Agreement Form)",
-                date: "Guidelines and Dates of Submission will be declared after the conference."
+                date: "26th June, 2021"
             }
         ];
         const StyledTableCell = withStyles((theme) => ({
