@@ -221,7 +221,7 @@ export default function Travel() {
       </div>
       <Container
         style={{
-          paddingLeft: '50px',
+          paddingLeft: '15%'
         }}
       >
         <Grid>
@@ -278,6 +278,7 @@ export default function Travel() {
       <div
         style={{
           paddingLeft: '50px',
+          marginTop:'30px'
         }}
       >
         <CopyRight />

@@ -104,6 +104,7 @@ export default function NearBy() {
         style={{
           width: 500,
           height: 350,
+          marginLeft:"10%"
         }}
         lg={4}
         md={4}

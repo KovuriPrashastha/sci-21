@@ -33,6 +33,7 @@ function Map() {
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
+    marginLeft: '20%'
   },
 });
 
@@ -151,7 +152,7 @@ export default function ContactUs() {
           </Grid>
         </Grid>
         <br />
-        <Grid item>
+        <Grid item style={{marginLeft:"10%"}}>
           <Map />
         </Grid>
       </Container>
