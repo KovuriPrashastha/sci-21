@@ -30,7 +30,14 @@ export default function ImportantDates() {
         <div>
           <NavBar className='bar' title='Important Dates' />
         </div>
-        <Grid container alignItems='center' justify='center'>
+        <Grid
+          container
+          alignItems='center'
+          justify='center'
+          style={{
+            paddingLeft: '50px',
+          }}
+        >
           <Grid item className='dates' lg={6} md={8} sm={12}>
             <table align='left'>
               <tr>
@@ -59,7 +66,12 @@ export default function ImportantDates() {
             <br />
           </Grid>
         </Grid>
-        <Grid container>
+        <Grid
+          container
+          style={{
+            paddingLeft: '50px',
+          }}
+        >
           <Grid item lg={12} md={12} sm={12}>
             <Typography variant='h6'>
               Venue: QEEE HALL , Vasavi College of Engineering(Autonomous),
@@ -68,7 +80,12 @@ export default function ImportantDates() {
           </Grid>
         </Grid>
       </Container>
-      <div className='bottomDiv'>
+      <div
+        className='bottomDiv'
+        style={{
+          paddingLeft: '50px',
+        }}
+      >
         <CopyRight />
       </div>
     </div>

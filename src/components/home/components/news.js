@@ -21,10 +21,18 @@ class News extends Component {
     ];
     const icons = [<TouchApp />, <TouchApp />, <TouchApp />, <PlayForWork />];
     return (
-      <div style={{ marginTop: '10px',marginBottom:"10px" }}>
-        <Container>
+      <div
+        style={{ marginTop: '10px', marginBottom: '10px', paddingLeft: '5px' }}
+      >
+        <Container
+          style={{
+            paddingLeft: '30px',
+          }}
+        >
           <Card>
-            <h1 className="aboutUsHeading" style={{ color: 'blue' }}>News</h1>
+            <h1 className='aboutUsHeading' style={{ color: 'blue' }}>
+              News
+            </h1>
             <List component='nav' aria-label='main mailbox folders'>
               <div
                 style={{

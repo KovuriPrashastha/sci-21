@@ -118,12 +118,21 @@ export default function ContactUs() {
       <div>
         <NavBar title='Contact Us' />
       </div>
-      <Container>
+      <Container
+        style={{
+          paddingLeft: '50px',
+        }}
+      >
         <Grid container spacing={3}>
           {layout}
         </Grid>
         <br />
-        <Grid container>
+        <Grid
+          container
+          style={{
+            paddingLeft: '50px',
+          }}
+        >
           <Grid item lg={6}>
             <Call color='primary' style={{ fontSize: '50' }} />
             <Typography gutterBottom variant='h6' component='h2'>
@@ -141,16 +150,19 @@ export default function ContactUs() {
             </Typography>
           </Grid>
         </Grid>
-        <br/>
+        <br />
         <Grid item>
           <Map />
         </Grid>
       </Container>
-      <Container>
-      </Container>
-      <div>
-          <CopyRight />
-        </div>
+      <Container></Container>
+      <div
+        style={{
+          paddingLeft: '50px',
+        }}
+      >
+        <CopyRight />
+      </div>
     </div>
   );
 }

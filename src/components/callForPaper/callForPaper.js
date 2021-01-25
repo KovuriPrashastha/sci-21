@@ -54,7 +54,7 @@ function CallForPaper() {
       <div>
         <NavBar title='Call For Papers' />
       </div>
-      <div style={{ paddingTop: '0px' }}>
+      <div style={{ paddingTop: '0px', paddingLeft: '50px' }}>
         <Container>
           <Card
             style={{
@@ -192,8 +192,13 @@ function CallForPaper() {
           </Card>
         </Container>
       </div>
-
-      <CopyRight />
+      <div
+        style={{
+          paddingLeft: '50px',
+        }}
+      >
+        <CopyRight />
+      </div>
     </div>
   );
 }

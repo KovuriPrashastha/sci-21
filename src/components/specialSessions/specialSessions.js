@@ -29,25 +29,42 @@ export default function SpecialSessions() {
     console.log(sessions);
   }, []);
   return (
-    
-        <div>
-        
-        <div>
-          <NavBar className='bar' title='Special Sessions'/>
-        </div>
+    <div>
+      <div>
+        <NavBar className='bar' title='Special Sessions' />
+      </div>
 
-        <div className="subDiv">
-        <Card style={{background:"linear-gradient(rgba(40,9,150,0.5),transparent)",textAlign:"center"}}>
-        <Announcement style={{height:"30px",width:"30px"}}/>
-        <p style={{display:"inline",fontSize:"30px",marginLeft:"10px"}}>To be Updated soon !!!</p>
+      <div
+        className='subDiv'
+        style={{
+          paddingLeft: '50px',
+        }}
+      >
+        <Card
+          style={{
+            background: 'linear-gradient(rgba(40,9,150,0.5),transparent)',
+            textAlign: 'center',
+          }}
+        >
+          <Announcement style={{ height: '30px', width: '30px' }} />
+          <p
+            style={{ display: 'inline', fontSize: '30px', marginLeft: '10px' }}
+          >
+            To be Updated soon !!!
+          </p>
         </Card>
-        </div>
-        
-        <div className="bottomDiv">
+      </div>
+
+      <div
+        className='bottomDiv'
+        style={{
+          paddingLeft: '50px',
+        }}
+      >
         <CopyRight />
-        </div>
-        
-        {/* <Grid container spacing={2} className='session'>
+      </div>
+
+      {/* <Grid container spacing={2} className='session'>
           {sessions.map(({ id, product }) => (
             <Grid key={id} item xs={6} sm={2}>
               <Card className='item'>
@@ -69,7 +86,6 @@ export default function SpecialSessions() {
             </Grid>
           ))}
         </Grid> */}
-
-     </div>
+    </div>
   );
 }

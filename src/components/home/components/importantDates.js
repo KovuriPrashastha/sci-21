@@ -52,6 +52,7 @@ class ImportantDates extends Component {
           paddingBottom: '2%',
           marginBottom: '0px',
           color: '#fff',
+          paddingLeft: '25px',
         }}
       >
         <h1 className='aboutUsHeading'>Important Dates</h1>

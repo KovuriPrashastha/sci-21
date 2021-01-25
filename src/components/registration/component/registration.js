@@ -99,7 +99,11 @@ class Registration extends Component {
           <NavBar className='bar' title='Registration' />
         </div>
         <CssBaseline />
-        <Container>
+        <Container
+          style={{
+            paddingLeft: '50px',
+          }}
+        >
           <div className='col-lg-2 col-md-4 col-sm-6 col-xl-3'>
             <Card className='instructionsCard'>
               <h3 style={{ textAlign: 'start', marginLeft: '14px' }}>
@@ -134,13 +138,19 @@ class Registration extends Component {
             {/*
             Below is the for the accordion which has account details for which the user needs to pay;
         */}
-            <Accordion style={{ marginRight: '0px', marginTop: '10px',backgroundColor:"#007984" }}>
+            <Accordion
+              style={{
+                marginRight: '0px',
+                marginTop: '10px',
+                backgroundColor: '#007984',
+              }}
+            >
               <AccordionSummary
                 expandIcon={<ExpandMore />}
                 aria-controls='panel1a-content'
                 id='panel1a-header'
               >
-                <Typography className='accountDetailsHeading' >
+                <Typography className='accountDetailsHeading'>
                   AccountDetails
                 </Typography>
               </AccordionSummary>
@@ -150,10 +160,15 @@ class Registration extends Component {
                     <Grid container spacing={3}>
                       <ListItem key={accountsDetails[index]}>
                         <Grid item sm={0}>
-                          <ListItemIcon style={{color:"white"}}>{icons[index]}</ListItemIcon>
+                          <ListItemIcon style={{ color: 'white' }}>
+                            {icons[index]}
+                          </ListItemIcon>
                         </Grid>
                         <Grid item sm={10} xs={8}>
-                          <ListItemText primary={accountsDetails[index]}  style={{color:"white"}}/>
+                          <ListItemText
+                            primary={accountsDetails[index]}
+                            style={{ color: 'white' }}
+                          />
                         </Grid>
                       </ListItem>
                     </Grid>
@@ -190,8 +205,19 @@ class Registration extends Component {
               </Table>
             </TableContainer>
 
-            <Card className='instructionsCard' style={{ marginBottom: '20px',backgroundColor:"#007984" }}>
-              <h3 style={{ textAlign: 'start', marginLeft: '14px',color:"white" }}>Note</h3>
+            <Card
+              className='instructionsCard'
+              style={{ marginBottom: '20px', backgroundColor: '#007984' }}
+            >
+              <h3
+                style={{
+                  textAlign: 'start',
+                  marginLeft: '14px',
+                  color: 'white',
+                }}
+              >
+                Note
+              </h3>
 
               <ol>
                 <li className='instructionsList2'>
@@ -241,8 +267,14 @@ class Registration extends Component {
             </Card>
           </div>
         </Container>
-        <Sponsors />
-        <CopyRight />
+        <div
+          style={{
+            paddingLeft: '50px',
+          }}
+        >
+          <Sponsors />
+          <CopyRight />
+        </div>
       </div>
     );
   }

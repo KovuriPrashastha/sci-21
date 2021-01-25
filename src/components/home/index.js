@@ -19,14 +19,19 @@ class Home extends Component {
             paddingBottom: '0px',
             paddingTop: '0px',
             marginBottom: '0px',
+            paddingLeft: '30px',
           }}
         >
           <Primary />
           <News />
           <Past />
           <About />
-          <ImportantDates />
-          <Sponsors/>
+          <ImportantDates
+            style={{
+              paddingLeft: '50px',
+            }}
+          />
+          <Sponsors />
           <CopyRight />
         </div>
       </div>

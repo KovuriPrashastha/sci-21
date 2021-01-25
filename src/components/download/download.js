@@ -15,7 +15,11 @@ class Download extends Component {
         <br />
         <br />
         <br />
-        <Container>
+        <Container
+          style={{
+            paddingLeft: '65px',
+          }}
+        >
           <div className='col-lg-2 col-md-4 col-sm-6 col-xl-3'>
             <Button
               variant='outlined'
@@ -44,11 +48,15 @@ class Download extends Component {
             </Button>
           </div>
         </Container>
-        <Sponsors />
 
-       
-        <div className="bottomDiv">
-        <CopyRight />
+        <div
+          className='bottomDiv'
+          style={{
+            paddingLeft: '50px',
+          }}
+        >
+          <Sponsors />
+          <CopyRight />
         </div>
       </div>
     );
