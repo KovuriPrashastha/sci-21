@@ -41,9 +41,7 @@ function createData(id, name, pos, pic) {
 }
 
 const useStyles = makeStyles((theme) => ({
-  table: {
-    minWidth: 700,
-  },
+  table: {},
   root: {
     display: 'flex',
     '& > *': {
@@ -269,7 +267,12 @@ function Committes() {
       <div>
         <NavBar title='Committees' />
       </div>
-      <Container maxWidth='md'>
+      <Container
+        maxWidth='md'
+        style={{
+          paddingLeft: '55px',
+        }}
+      >
         <Grid container>
           <Grid item lg={12} sm={12} md={12}>
             <Typography variant='h3' align='left' component='h6'>
@@ -381,7 +384,12 @@ function Committes() {
           </Grid>
         </Grid>
       </Container>
-      <Grid container>
+      <Grid
+        container
+        style={{
+          paddingLeft: '50px',
+        }}
+      >
         <Grid item lg={12} md={12} sm={12}>
           <CopyRight />
         </Grid>

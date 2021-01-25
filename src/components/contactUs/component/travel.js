@@ -219,7 +219,11 @@ export default function Travel() {
       <div>
         <NavBar title='Travel' />
       </div>
-      <Container>
+      <Container
+        style={{
+          paddingLeft: '50px',
+        }}
+      >
         <Grid>
           <OutlinedCard
             data='Hyderabad, city, Telangana state, south-central India. It is Telangana’s largest and most-populous city and is the major urban centre for all of south-central interior India. Hyderabad has become a hub of trade and commerce and an international centre for information technology (IT). The Pearl City, Hyderabad with its unmatched blend of history and modernity, hypnotizes everyone, whoever sets his/her foot in this beautiful city of Nizams. With a history as old as 400 years and the status of metropolitan city, Hyderabad promises a unique refreshing experience to all. From historical monuments to natural getaways to mouth-watering world famous cuisine to appealing shopping places and thrilling entertainment parks, this city has it all to keep you glued.'
@@ -248,7 +252,14 @@ export default function Travel() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid container lg={5} md={5}>
+          <Grid
+            container
+            lg={5}
+            md={5}
+            style={{
+              paddingLeft: '30px',
+            }}
+          >
             <Grid item>
               <Typography gutterBottom variant='h5' component='h2'>
                 {'How to reach Hyderabad'}
@@ -264,7 +275,13 @@ export default function Travel() {
           </Grid>
         </Grid>
       </Container>
-      <CopyRight />
+      <div
+        style={{
+          paddingLeft: '50px',
+        }}
+      >
+        <CopyRight />
+      </div>
     </div>
   );
 }

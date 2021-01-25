@@ -25,20 +25,45 @@ class Speakers extends Component {
         <div>
           <NavBar className='bar' title='Speakers' />
         </div>
-        
-        <div className="subDiv">
-        <Card style={{background:"linear-gradient(rgba(40,9,150,0.5),transparent)",textAlign:"center"}}>
-        <Announcement style={{height:"30px",width:"30px"}}/>
-        <p style={{display:"inline",fontSize:"30px",marginLeft:"10px"}}>To be Updated soon !!!</p>
-        </Card>
+
+        <div
+          className='subDiv'
+          style={{
+            paddingLeft: '50px',
+          }}
+        >
+          <Card
+            style={{
+              background: 'linear-gradient(rgba(40,9,150,0.5),transparent)',
+              textAlign: 'center',
+            }}
+          >
+            <Announcement style={{ height: '30px', width: '30px' }} />
+            <p
+              style={{
+                display: 'inline',
+                fontSize: '30px',
+                marginLeft: '10px',
+              }}
+            >
+              To be Updated soon !!!
+            </p>
+          </Card>
         </div>
-        <div className="bottomDiv">
-        <CopyRight />
+        <div
+          className='bottomDiv'
+          style={{
+            paddingLeft: '50px',
+          }}
+        >
+          <CopyRight />
         </div>
-        
+
         {/*}
         <CssBaseline />
-        <Container>
+        <Container style={{
+          paddingLeft: '50px',
+        }}>
           <div className='col-lg-2 col-md-4 col-sm-6 col-xl-3'>
             <h2>Speakers</h2>
             <Card>

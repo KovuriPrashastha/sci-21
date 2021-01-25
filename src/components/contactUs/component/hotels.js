@@ -99,10 +99,15 @@ function MediaCard(props) {
 export default function NearBy() {
   const arrange = data.map((hotel) => {
     return (
-      <Grid item style={{
-        width: 500,
-        height: 350,
-      }} lg={4} md={4}>
+      <Grid
+        item
+        style={{
+          width: 500,
+          height: 350,
+        }}
+        lg={4}
+        md={4}
+      >
         <MediaCard hotel={hotel} />
       </Grid>
     );
@@ -112,13 +117,23 @@ export default function NearBy() {
       <div>
         <NavBar title='Hotels' />
       </div>
-      <Container>
+      <Container
+        style={{
+          paddingLeft: '50px',
+        }}
+      >
         <h1>Nearby Hotels</h1>
         <Grid container spacing={3}>
           {arrange}
         </Grid>
       </Container>
-      <CopyRight />
+      <div
+        style={{
+          paddingLeft: '50px',
+        }}
+      >
+        <CopyRight />
+      </div>
     </div>
   );
 }

@@ -14,7 +14,11 @@ class AboutUs extends Component {
           <NavBar title='About Us' />
         </div>
         <div style={{ paddingTop: '0px' }}>
-          <Container>
+          <Container
+            style={{
+              paddingLeft: '50px',
+            }}
+          >
             <Card
               style={{
                 textAlign: 'justify',
@@ -23,10 +27,10 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
-                backgroundColor:"#e1f5fe"
+                backgroundColor: '#e1f5fe',
               }}
             >
-              <h1 className="aboutUsHeading">PROFILE OF THE INSTITUTE</h1>
+              <h1 className='aboutUsHeading'>PROFILE OF THE INSTITUTE</h1>
               <p>
                 Founded in 1981 by Vasavi Academy of Education, Vasavi College
                 of Engineering represents a rich tradition of excellence in
@@ -75,10 +79,10 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
-                backgroundColor:"#e1f5fe"
+                backgroundColor: '#e1f5fe',
               }}
             >
-              <h1 className="aboutUsHeading">ABOUT THE DEPARTMENT</h1>
+              <h1 className='aboutUsHeading'>ABOUT THE DEPARTMENT</h1>
               <p>
                 Established in the year 1994, the Department of Computer Science
                 and Engineering diligently strives to develop analytical &
@@ -126,10 +130,10 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
-                backgroundColor:"#e1f5fe"
+                backgroundColor: '#e1f5fe',
               }}
             >
-              <h1 className="aboutUsHeading">Department Vision</h1>
+              <h1 className='aboutUsHeading'>Department Vision</h1>
               <p>
                 Be a pioneer in producing ethical and competent professionals in
                 the domain of Computer Science and Engineering.
@@ -143,10 +147,10 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
-                backgroundColor:"#e1f5fe"
+                backgroundColor: '#e1f5fe',
               }}
             >
-              <h1 className="aboutUsHeading">Department Mission</h1>
+              <h1 className='aboutUsHeading'>Department Mission</h1>
               <p>
                 To build analytical and synthesizing skills in the domain of
                 Computer Science and Engineering for the benefit of the society.
@@ -160,10 +164,12 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
-                backgroundColor:"#e1f5fe"
+                backgroundColor: '#e1f5fe',
               }}
             >
-              <h2 className="aboutUsHeading">Program Educational Objectives (PEOs) - BE (CSE):</h2>
+              <h2 className='aboutUsHeading'>
+                Program Educational Objectives (PEOs) - BE (CSE):
+              </h2>
               <p>Program Educational Objectives (PEOs) - BE (CSE):</p>
               <ul>
                 <li>
@@ -192,10 +198,12 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
-                backgroundColor:"#e1f5fe"
+                backgroundColor: '#e1f5fe',
               }}
             >
-              <h2 className="aboutUsHeading">Program Outcomes (PO’S) - BE (CSE)</h2>
+              <h2 className='aboutUsHeading'>
+                Program Outcomes (PO’S) - BE (CSE)
+              </h2>
               <i>Engineering Graduates will be able to:</i>
               <ul>
                 <li>
@@ -282,10 +290,12 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
-                backgroundColor:"#e1f5fe"
+                backgroundColor: '#e1f5fe',
               }}
             >
-              <h2 className="aboutUsHeading">PROGRAM SPECIFIC OUTCOMES (PSOs) - BE (CSE)</h2>
+              <h2 className='aboutUsHeading'>
+                PROGRAM SPECIFIC OUTCOMES (PSOs) - BE (CSE)
+              </h2>
               <ul>
                 <li>
                   Graduates will have knowledge of programming and designing to
@@ -309,10 +319,12 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
-                backgroundColor:"#e1f5fe"
+                backgroundColor: '#e1f5fe',
               }}
             >
-              <h2 className="aboutUsHeading">Program Educational Objectives (PEOs) - M.Tech. (CSE)</h2>
+              <h2 className='aboutUsHeading'>
+                Program Educational Objectives (PEOs) - M.Tech. (CSE)
+              </h2>
               <ul>
                 <li>
                   To provide students with the in depth knowledge in the area of
@@ -344,10 +356,12 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
-                backgroundColor:"#e1f5fe"
+                backgroundColor: '#e1f5fe',
               }}
             >
-              <h2 className="aboutUsHeading">Program Outcomes (POs) - M.Tech. (CSE)</h2>
+              <h2 className='aboutUsHeading'>
+                Program Outcomes (POs) - M.Tech. (CSE)
+              </h2>
               <ul>
                 <li>
                   <b>PO1:</b> An ability to independently carry out research /
@@ -383,10 +397,12 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
-                backgroundColor:"#e1f5fe"
+                backgroundColor: '#e1f5fe',
               }}
             >
-              <h2 className="aboutUsHeading">Programme Specific Outcomes - M.Tech.(CSE)</h2>
+              <h2 className='aboutUsHeading'>
+                Programme Specific Outcomes - M.Tech.(CSE)
+              </h2>
               <ul>
                 <li>
                   <b>PSO1:</b> Graduates will be able to design efficient
@@ -403,8 +419,14 @@ class AboutUs extends Component {
               </ul>
             </Card>
           </Container>
-          <Sponsors />
-          <CopyRight />
+          <div
+            style={{
+              paddingLeft: '50px',
+            }}
+          >
+            <Sponsors />
+            <CopyRight />
+          </div>
         </div>
       </div>
     );

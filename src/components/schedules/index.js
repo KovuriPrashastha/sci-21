@@ -13,7 +13,12 @@ class Schedules extends Component {
         </div>
 
         {/* <div style={{ paddingTop: '15%', backgroundColor: '#f5f5f5' }}> */}
-        <Container maxWidth='xs'>
+        <Container
+          maxWidth='xs'
+          style={{
+            paddingLeft: '80px',
+          }}
+        >
           <Card
             style={{
               textAlign: 'justify',
@@ -60,7 +65,12 @@ class Schedules extends Component {
         </Container>
         <div style={{ paddingTop: '10%' }}>
           {/* <Sponsors /> */}
-          <div className='bottomDiv'>
+          <div
+            className='bottomDiv'
+            style={{
+              paddingLeft: '50px',
+            }}
+          >
             <Sponsors />
             <CopyRight />
           </div>
