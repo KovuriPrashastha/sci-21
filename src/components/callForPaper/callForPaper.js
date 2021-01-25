@@ -64,6 +64,7 @@ function CallForPaper() {
               paddingBottom: '1%',
               paddingTop: '2%',
               marginTop: '5%',
+              marginLeft:'5%',
               backgroundColor: '#e1f5fe',
             }}
           >
@@ -99,6 +100,7 @@ function CallForPaper() {
               paddingBottom: '1%',
               paddingTop: '2%',
               marginTop: '5%',
+              marginLeft:'5%',
               backgroundColor: '#e1f5fe',
             }}
           >
@@ -137,6 +139,7 @@ function CallForPaper() {
               paddingBottom: '1%',
               paddingTop: '2%',
               marginTop: '5%',
+              marginLeft:'5%',
               backgroundColor: '#e1f5fe',
             }}
           >

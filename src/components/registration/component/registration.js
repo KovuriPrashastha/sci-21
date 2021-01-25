@@ -105,7 +105,7 @@ class Registration extends Component {
           }}
         >
           <div className='col-lg-2 col-md-4 col-sm-6 col-xl-3'>
-            <Card className='instructionsCard'>
+            <Card className='instructionsCard' style={{marginLeft:'5%'}}>
               <h3 style={{ textAlign: 'start', marginLeft: '14px' }}>
                 Instructions for Author(s) Registration & Payment of Reg. Fee
               </h3>
@@ -142,6 +142,7 @@ class Registration extends Component {
               style={{
                 marginRight: '0px',
                 marginTop: '10px',
+                marginLeft:'5%',
                 backgroundColor: '#007984',
               }}
             >
@@ -182,10 +183,10 @@ class Registration extends Component {
             the details are in a list and we map the list;
         */}
 
-            <h3 style={{ textAlign: 'start', marginLeft: '14px' }}>
+            <h3 style={{ textAlign: 'start', marginLeft: '5%' }}>
               Registration Fee Details
             </h3>
-            <TableContainer component={Paper} style={{ marginBottom: '20px' }}>
+            <TableContainer component={Paper} style={{ marginBottom: '20px',marginLeft:'5%'}}>
               <Table className='table' aria-label='simple table'>
                 <TableBody>
                   {feeDetails.map((row) => (
@@ -207,7 +208,7 @@ class Registration extends Component {
 
             <Card
               className='instructionsCard'
-              style={{ marginBottom: '20px', backgroundColor: '#007984' }}
+              style={{ marginBottom: '20px', backgroundColor: '#007984',marginLeft:'5%' }}
             >
               <h3
                 style={{

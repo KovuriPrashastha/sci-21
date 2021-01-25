@@ -27,6 +27,7 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
+                marginLeft:'5%',
                 backgroundColor: '#e1f5fe',
               }}
             >
@@ -79,6 +80,7 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
+                marginLeft:'5%',
                 backgroundColor: '#e1f5fe',
               }}
             >
@@ -130,6 +132,7 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
+                marginLeft:'5%',
                 backgroundColor: '#e1f5fe',
               }}
             >
@@ -147,6 +150,7 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
+                marginLeft:'5%',
                 backgroundColor: '#e1f5fe',
               }}
             >
@@ -164,6 +168,7 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
+                marginLeft:'5%',
                 backgroundColor: '#e1f5fe',
               }}
             >
@@ -198,6 +203,7 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
+                marginLeft:'5%',
                 backgroundColor: '#e1f5fe',
               }}
             >
@@ -290,6 +296,7 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
+                marginLeft:'5%',
                 backgroundColor: '#e1f5fe',
               }}
             >
@@ -319,6 +326,7 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
+                marginLeft:'5%',
                 backgroundColor: '#e1f5fe',
               }}
             >
@@ -356,6 +364,7 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
+                marginLeft:'5%',
                 backgroundColor: '#e1f5fe',
               }}
             >
@@ -397,6 +406,7 @@ class AboutUs extends Component {
                 paddingBottom: '1%',
                 paddingTop: '2%',
                 marginTop: '5%',
+                marginLeft:'5%',
                 backgroundColor: '#e1f5fe',
               }}
             >
