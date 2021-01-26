@@ -11,20 +11,6 @@ import { withStyles } from '@material-ui/core/styles';
 
 class ImportantDates extends Component {
   render() {
-    const tableContents = [
-      {
-        content: 'Paper submission Last Date',
-        date: '12th June, 2021',
-      },
-      {
-        content: 'Notification of Acceptance',
-        date: '19th June, 2021',
-      },
-      {
-        content: 'Registration Fee Payment',
-        date: '26th June, 2021',
-      },
-    ];
     const StyledTableCell = withStyles((theme) => ({
       head: {
         backgroundColor: theme.palette.common.black,
