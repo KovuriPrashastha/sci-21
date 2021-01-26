@@ -42,15 +42,24 @@ export default function ImportantDates() {
             <table align='left'>
               <tr>
                 <td>Paper submission Last Date</td>
-                <td>12th June, 2021</td>
+                <td>
+                  12<span style={{ 'vertical-align': 'super' }}>th</span> June,
+                  2021
+                </td>
               </tr>
               <tr>
                 <td>Notification of Acceptance</td>
-                <td>19th June, 2021</td>
+                <td>
+                  19<span style={{ 'vertical-align': 'super' }}>th</span> June,
+                  2021
+                </td>
               </tr>
               <tr>
                 <td>Registration Fee Payment</td>
-                <td>26th June, 2021</td>
+                <td>
+                  26<span style={{ 'vertical-align': 'super' }}>th</span> June,
+                  2021
+                </td>
               </tr>
               {/* <tr>
                 <td>

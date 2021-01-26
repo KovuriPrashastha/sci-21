@@ -36,6 +36,7 @@ import {
   FlightTakeoffSharp,
 } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
+import './NavBar.css';
 
 const names = [
   'HOME',
@@ -233,7 +234,7 @@ export default function NavBar(props) {
                   <ListItem button key={names[index]}>
                     <ListItemIcon>{icons[index]}</ListItemIcon>
 
-                    <ListItemText primary={names[index]} />
+                    <ListItemText className='listitem' primary={names[index]} />
                   </ListItem>
                 </List>
               </Tooltip>

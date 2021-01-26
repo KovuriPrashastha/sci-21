@@ -8,37 +8,52 @@ import '../css/home.css';
 class Primary extends Component {
   render() {
     return (
-      
-        <div className="firstComponent"
-          style={{
-            textAlign: 'center',
-            padding: '5%',
-            backgroundColor:"#007984",
-            color:"#fff"
-          }}
-        >
-          <h1 className="aboutUsHeading">
-            5th INTERNATIONAL CONFERENCE ON SMART COMPUTING AND INFORMATICS
-            (SCI-2021)
-          </h1>
-          <img src={csi} alt="previous" width="100px" height="100px"/>
-          <img src={springer} alt="previous" width="170px" height="100px" style={{marginLeft:"15%"}}/>
-          <h1 className="aboutUsHeading" style={{color:"black"}}>17-18 September</h1>
-          <h3> Organized by</h3>
-          <table style={{border:"none"}}>
-            <tbody style={{border:"none"}}>
-              <td style={{border:"none"}}>
-          <img src={logo} alt="previous" width="100px" height="100px" style={{display:"inline"}}/>
-          </td>
-          <td style={{border:"none",textAlign:"center"}}>
-          <h1 className="aboutUsHeading" style={{display:"inline"}}>
-            Department of Computer Science and Engineering Vasavi College of
-            Engineering (Autonomous) Hyderabad, Telangana, India
-          </h1>
-          </td>
+      <div
+        className='firstComponent'
+        style={{
+          textAlign: 'center',
+          padding: '5%',
+          backgroundColor: '#007984',
+          color: '#fff',
+        }}
+      >
+        <h1 className='aboutUsHeading'>
+          5<span style={{ 'vertical-align': 'super' }}>th</span> INTERNATIONAL
+          CONFERENCE ON SMART COMPUTING AND INFORMATICS (SCI-2021)
+        </h1>
+        <img src={csi} alt='previous' width='100px' height='100px' />
+        <img
+          src={springer}
+          alt='previous'
+          width='170px'
+          height='100px'
+          style={{ marginLeft: '15%' }}
+        />
+        <h1 className='aboutUsHeading' style={{ color: 'black' }}>
+          17-18 September, 2021
+        </h1>
+        <h3> Organized by</h3>
+        <table style={{ border: 'none' }}>
+          <tbody style={{ border: 'none' }}>
+            <td style={{ border: 'none' }}>
+              <img
+                src={logo}
+                alt='previous'
+                width='100px'
+                height='100px'
+                style={{ display: 'inline' }}
+              />
+            </td>
+            <td style={{ border: 'none', textAlign: 'center' }}>
+              <h1 className='aboutUsHeading' style={{ display: 'inline' }}>
+                Department of Computer Science and Engineering
+                <br /> Vasavi College of Engineering (Autonomous) <br />
+                Hyderabad, Telangana, India
+              </h1>
+            </td>
           </tbody>
-          </table>
-        </div>
+        </table>
+      </div>
     );
   }
 }

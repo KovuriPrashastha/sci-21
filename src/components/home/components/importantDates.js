@@ -60,14 +60,33 @@ class ImportantDates extends Component {
           <TableContainer component={Paper} style={{ marginBottom: '20px' }}>
             <Table className='table' aria-label='simple table'>
               <TableBody>
-                {tableContents.map((row) => (
-                  <StyledTableRow key={row.content}>
-                    <StyledTableCell align='left'>
-                      {row.content}
-                    </StyledTableCell>
-                    <StyledTableCell align='left'>{row.date}</StyledTableCell>
-                  </StyledTableRow>
-                ))}
+                <StyledTableRow key='Paper submission Last Date'>
+                  <StyledTableCell align='left'>
+                    Paper submission Last Date
+                  </StyledTableCell>
+                  <StyledTableCell align='left'>
+                    12<span style={{ 'vertical-align': 'super' }}>th</span>{' '}
+                    June, 2021
+                  </StyledTableCell>
+                </StyledTableRow>
+                <StyledTableRow key='Notification of Acceptance'>
+                  <StyledTableCell align='left'>
+                    Notification of Acceptance
+                  </StyledTableCell>
+                  <StyledTableCell align='left'>
+                    19<span style={{ 'vertical-align': 'super' }}>th</span>{' '}
+                    June, 2021
+                  </StyledTableCell>
+                </StyledTableRow>
+                <StyledTableRow key='Registration Fee Payment'>
+                  <StyledTableCell align='left'>
+                    Registration Fee Payment
+                  </StyledTableCell>
+                  <StyledTableCell align='left'>
+                    26<span style={{ 'vertical-align': 'super' }}>th</span>{' '}
+                    June, 2021
+                  </StyledTableCell>
+                </StyledTableRow>
               </TableBody>
             </Table>
           </TableContainer>
