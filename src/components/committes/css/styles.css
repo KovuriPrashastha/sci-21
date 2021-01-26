@@ -1,7 +1,5 @@
-html, body {
+.main {
   background-color: rgb(122, 128, 129);
-  width: 100%;
-  height: 100%;
 }
 
 h6 {

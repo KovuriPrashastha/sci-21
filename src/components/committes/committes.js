@@ -47,7 +47,7 @@ function CustomizedTables(props) {
       <Table className={classes.table} aria-label="customized table">
         <TableBody>
           {props.rows.map((row) => (
-            <Card style={{marginBottom: "2px"}}>
+            <Card style={{marginBottom: "2px",minWidth: "415px"}}>
               <CardActionArea>
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
@@ -219,7 +219,7 @@ function Committes() {
     createData(2, "Mr. M. S. V. Sashi Kumar", " Assistant Professor, CSE, VCE"),
   ];
   return (
-    <div>
+    <div style={{backgroundColor: "rgb(122, 128, 129)"}}>
       <div>
         <NavBar title="Committees" />
       </div>
